@@ -4,25 +4,6 @@ import "./Search.css"
 const Scourse = () => {
   return (
     <>
-    {/* <div style={{ 
-        width: '100%', 
-        height: '100vh', 
-        overflow: 'hidden',
-        position: 'relative',
-    }}>
-      <iframe 
-        src="https://howtoabroad.com/find-study-programmes-in-germany/" 
-        style={{ 
-          border: 'none', 
-          width: '100%', 
-          height: 'calc(100% + 500px)', // Adjust height to account for the cut-off
-          marginTop: '-450px', // Move content up to cut off the top part
-          marginBottom: '500px', // Move content up to cut off the bottom part
-          overflowY: 'scroll',
-        }}
-        title="Find Study Programmes in Germany"
-      ></iframe>
-    </div> */}
     <div
     className='course' 
     style={{ width: '100%', height: '100vh', overflow: 'hidden', position: 'relative' }}>
@@ -45,6 +26,14 @@ const Scourse = () => {
         }}
         title="Find Study Programmes in Germany"
       ></iframe>
+      <div style={{
+        backgroundColor:'white',
+        // position:'relative',
+        zIndex:'1',
+        height:'400px',
+        width:'400px',
+        top:'50%'
+      }}></div>
     </div>
     </>
   );

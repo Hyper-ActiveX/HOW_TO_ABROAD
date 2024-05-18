@@ -22,7 +22,7 @@ function App() {
         />
       </Routes>
       <LoginModal/>
-
+      
     </Router>
     </div>
     </div>
